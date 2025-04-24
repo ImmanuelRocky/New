@@ -1,0 +1,14 @@
+name: manual Deploy
+
+on:
+  workflow_dispatch:  # manual trigger enabled
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Just say hello:
+        run: echo "Vanakkam da mapla"
+        
